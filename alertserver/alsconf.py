@@ -13,7 +13,7 @@ PATH_LOG_ALERT			 = 	'analyfault/imalert'  # 报警路径使用：文件名＋�
 和程序有间接关联性的人，他们的工作会使程序间接不可用（如影响ipsort内容）
 把这个程序正常分析到的结论发给这个火星列表
 '''
-IM_GROUP_MATINTAIN		 = 	[YouZeShun, XiaoGuiZhi, QiangYao]
+IM_GROUP_MATINTAIN		 = 	[YouZeShun, XiaoGuiZhi, QiangYao,9127,6414]
 
 '''
 程序使用者，业务支撑组和开发人员
