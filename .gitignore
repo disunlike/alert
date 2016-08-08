@@ -1,11 +1,5 @@
-idea/
-#ignore pyc
-*.pyc
-*/*.pyc
-*/*/*.pyc
-*/*/*/*.pyc
-#ignore ~
+[lL]og
+.idea
+#*.pyc
 *.*~
-*/*.*~
-*/*/*.*~
-*/*/*/*.*~
+*.swp
