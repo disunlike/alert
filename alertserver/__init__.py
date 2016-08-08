@@ -31,9 +31,6 @@ author: youzeshun  (IM: 8766)
 一周之内该点xx次被判断为故障点，排列x/x
 '''
 
-import analysis
-import shellcmd
-import dev
 import nagiosping
 import alsconf
 import delayalert
@@ -81,10 +78,8 @@ def Init(sLogPath,sRootPath):
 	
 	oTimerMgr=timerctrl.CTimerManager()
 	SetGlobalManager("timer",oTimerMgr)
-	SetGlobalManager("devdict",dev.Init()) #dev.DevDict这种方式会让全局变量和全局变量管理字典同时保存相同的内容。
 	SetGlobalManager("alert",alert.CAlertManager())
 	SetGlobalManager("txtlog",txtlog.CLog(sLogPath))
-	SetGlobalManager('shelldict',shellcmd.Init())
 	SetGlobalManager('delayalert',delayalert.CDelayAlert())
 	#开始加载功能模块
 	#检查日志中记录的严重错误，火星发送
