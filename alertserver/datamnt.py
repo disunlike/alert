@@ -212,7 +212,7 @@ MONITOR_NODE_ALI_SH_B={
 					'abbr':'ALI-SH-B',
 					'node':[{
 								'abbr':'ALI-SH-B',
-								'bgp':'139.196.252.251',
+								# 'bgp':'139.196.252.251',已撤销
 								'sw':'10.79.64.251',
 							}],
 					}
