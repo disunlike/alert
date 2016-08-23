@@ -263,7 +263,7 @@ MONITOR_NODE_QQ_SH_1={
 					}
 
 #美国监控节点
-MONITOR_NODE_AMERICA={
+MONITOR_NODE_ALI_US={
 					'name':'阿里云(美国)',
 					'abbr':'ALI-US',
 					'node':[{
@@ -294,6 +294,7 @@ MONITOR_NODE_DICT={
 			'QQ-BJ-1':MONITOR_NODE_QQ_BJ_1,
 			'QQ-GZ-1':MONITOR_NODE_QQ_GZ_1,
 			'QQ-SH-1':MONITOR_NODE_QQ_SH_1,
+			'ALI-US':MONITOR_NODE_ALI_US,
 			}
 
 ##################################################
