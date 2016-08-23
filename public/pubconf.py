@@ -12,22 +12,23 @@ Created on 2016-4-27
 WangCong				=	2344
 XiaoGuiZhi				=	2693
 LuHuan					=	4564
-TanBin					=	6414
 CaiBoXin				=	8563
 YouZeShun				=	8766
 QiangYao				=	8838
+TaoLiu					=	9127
+DuanShanChun			=	4606
 #监控报警群
 OPS_MNT					=	12672
 
 '''
 业务支撑组
 '''
-IM_GROUP_SUPPORT		=	[LuHuan,CaiBoXin,QiangYao,TanBin]
+IM_GROUP_SUPPORT		=	[LuHuan,CaiBoXin,QiangYao,TaoLiu]
 
 '''
 网络组
 '''
-IM_GROUP_NETWORK		=	[LuHuan,WangCong]
+IM_GROUP_NETWORK		=	[LuHuan,WangCong,DuanShanChun]
 
 '''
 程序开发者的火星
