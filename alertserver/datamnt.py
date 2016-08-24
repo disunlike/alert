@@ -214,20 +214,20 @@ MONITOR_NODE_ALI_SZ_B={
 					'node':[{
 								'abbr':'ALI-SZ-B',
 								'bgp':'120.25.199.237',
-								'sw':'10.79.34.237',
+								'sw':'10.79.48.237',
 							}],
 					}
 
 #阿里上海B,
-MONITOR_NODE_ALI_SH_B={
-					'name':'阿里上海B',
-					'abbr':'ALI-SH-B',
-					'node':[{
-								'abbr':'ALI-SH-B',
-								# 'bgp':'139.196.252.251',已撤销
-								'sw':'10.79.64.251',
-							}],
-					}
+# MONITOR_NODE_ALI_SH_B={
+# 					'name':'阿里上海B',
+# 					'abbr':'ALI-SH-B',
+# 					'node':[{
+# 								'abbr':'ALI-SH-B',
+# 								# 'bgp':'139.196.252.251',已撤销
+# 								'sw':'10.79.64.251',
+# 							}],
+# 					}
 
 #阿里杭州D,
 MONITOR_NODE_ALI_HZ_D={
@@ -258,7 +258,7 @@ MONITOR_NODE_QQ_GZ_1={
 					'node':[{
 								'abbr':'QQ-GZ-1',
 								'bgp':'119.29.121.123',
-								'sw':'10.79.22.123',
+								'sw':'10.79.112.123',
 							}],
 					}
 
@@ -301,7 +301,7 @@ MONITOR_NODE_DICT={
 			'ALI-BJ-B':MONITOR_NODE_ALI_BJ_B,
 			'ALI-HZ-B':MONITOR_NODE_ALI_HZ_B,
 			'ALI-SZ-B':MONITOR_NODE_ALI_SZ_B,
-			'ALI-SH-B':MONITOR_NODE_ALI_SH_B,
+			# 'ALI-SH-B':MONITOR_NODE_ALI_SH_B,
 			'ALI-HZ-D':MONITOR_NODE_ALI_HZ_D,
 			'QQ-BJ-1':MONITOR_NODE_QQ_BJ_1,
 			'QQ-GZ-1':MONITOR_NODE_QQ_GZ_1,
