@@ -79,15 +79,15 @@ MONITOR_NODE_HZ={
 
 
 #南方基地
-GYD={
-	'abbr':'GYD',
+NFJD={
+	'abbr':'NFJD',
 	'yd':'183.232.9.3',
 	'sw':'10.82.9.3',
 	}
-MONITOR_NODE_GYD={
+MONITOR_NODE_NFJD={
 				'name':'南方基地',
-				'abbr':'GYD',
-				'node':[GYD],
+				'abbr':'NFJD',
+				'node':[NFJD],
 				}
 
 
@@ -139,6 +139,18 @@ MONITOR_NODE_WH={
 				'name':'武汉金银湖',
 				'abbr':'WH',
 				'node':[WH_1],
+				}
+
+WHYL={
+	'abbr':'WHYL',
+	'lt':'183.95.88.86',
+	'yd':'111.47.206..116',
+	'sw':'10.82.206.116',
+	}
+MONITOR_NODE_WHYL={
+				'name':'武汉银联',
+				'abbr':'WHYL',
+				'node':[WHYL],
 				}
 
 '''
@@ -281,7 +293,7 @@ MONITOR_NODE_DICT={
 			'cz':MONITOR_NODE_CZ,
 			'jn':MONITOR_NODE_JN,
 			'hz':MONITOR_NODE_HZ,
-			'gyd':MONITOR_NODE_GYD,
+			'NFJD':MONITOR_NODE_NFJD,
 			'sy':MONITOR_NODE_SY,
 			'zs':MONITOR_NODE_ZS,
 			'cd':MONITOR_NODE_CD,
@@ -295,6 +307,7 @@ MONITOR_NODE_DICT={
 			'QQ-GZ-1':MONITOR_NODE_QQ_GZ_1,
 			'QQ-SH-1':MONITOR_NODE_QQ_SH_1,
 			'ALI-US':MONITOR_NODE_ALI_US,
+			'WHYL':MONITOR_NODE_WHYL,
 			}
 
 ##################################################
