@@ -252,12 +252,12 @@ class CStatiAlert():
 				return 1
 		
 		if not self.IsRegIP(sThief):
-			sWarning = 'IP:%s没有被注册所属的运营商.' % (sThief)
+			sWarning = 'IP: %s 没有被注册所属的运营商.' % (sThief)
 			Alert(sWarning, alsconf.IM_GROUP_DEVELOPER)
 			Log(PATH_LOG_WARNNING, sWarning)
 			return 1
 		elif not self.IsRegIP(sPolice):
-			sWarning = 'IP:%s没有被注册所属的运营商.' % (sPolice)
+			sWarning = 'IP: %s 没有被注册所属的运营商.' % (sPolice)
 			Alert(sWarning, alsconf.IM_GROUP_DEVELOPER)
 			Log(PATH_LOG_WARNNING, sWarning)
 			return 1
