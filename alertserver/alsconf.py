@@ -13,12 +13,12 @@ PATH_LOG_ALERT			 = 	'analyfault/imalert'  # 报警路径使用：文件名＋�
 和程序有间接关联性的人，他们的工作会使程序间接不可用（如影响ipsort内容）
 把这个程序正常分析到的结论发给这个火星列表
 '''
-IM_GROUP_MATINTAIN		 = 	[YouZeShun, XiaoGuiZhi, QiangYao,TaoLiu]
+IM_GROUP_MATINTAIN		 = 	[YouZeShun, QiangYao]
 
 '''
 程序使用者，业务支撑组和开发人员
 '''
-IM_USER					 = 	IM_GROUP_MATINTAIN + [LuHuan,QiangYao,DuanShanChun]
+IM_USER					 = 	IM_GROUP_MATINTAIN + [LuHuan,QiangYao,DuanShanChun,TaoLiu, XiaoGuiZhi]
 
 '''
 检查数据库读取最近一次更新的数据的频率

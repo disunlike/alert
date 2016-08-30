@@ -164,7 +164,7 @@ def AutoAnaly(NewDataList):
 	AnalyRange()
 	SummaryDict = Format()  # 格式化报警数据
 	SendSummary(SummaryDict)  # 发送结论
-	Debug(SummaryDict)
+	# Debug(SummaryDict)
 	
 # #检查最近一条记录的产生时间，如果有更新的则激活算法，并一次性读取所有更新的内容
 def Start():
