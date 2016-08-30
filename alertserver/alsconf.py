@@ -18,7 +18,7 @@ IM_GROUP_MATINTAIN		 = 	[YouZeShun, XiaoGuiZhi, QiangYao,TaoLiu]
 '''
 程序使用者，业务支撑组和开发人员
 '''
-IM_USER					 = 	IM_GROUP_MATINTAIN + [LuHuan,QiangYao]
+IM_USER					 = 	IM_GROUP_MATINTAIN + [LuHuan,QiangYao,DuanShanChun]
 
 '''
 检查数据库读取最近一次更新的数据的频率
